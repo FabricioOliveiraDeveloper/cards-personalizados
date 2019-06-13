@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    background: #f4f4f4;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+
+/* -- NavBar -- */
+nav{
+    background: #FFF;
+    box-shadow: 1px 1px 5px #e5e5e5;
+}
+.icon-perfil{
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/perfil.png);
+    background-repeat: no-repeat;
+    background-size:40px;
+    float: left;
+    border-radius: 50%;
+}
+.text-perfil{
+    padding: 9px 0px 0px 10px;
+    float: right;
+}
+.img-perfil{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 10px;
+    right: 0px;
+    left: 0px;
+}
+.card{
+    overflow: hidden;
+    border-radius: 0;
+    box-shadow: 0.5px 0.5px 3px #e5e5e5;
+    transition: box-shadow 0.2s, margin 0.2s;
+}
+.card:hover{
+    margin-top: -10px;
+    box-shadow: 10px 10px 1px #cbcbcb;
+}
+.card:hover .card-img-apresentation{
+    transform: scale(1.05);
+}
+
+.card-link{
+    color: #5d5d5d;
+}
+.card-link:hover{
+    color: #000;
+}
+.card-perfil{
+    position: absolute;
+    z-index: 99;
+}
+
+.card-logo{
+    height: 200px;
+    overflow: hidden;
+}
+.card-img-apresentation{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0px;
+    transition: transform 1.5s;
+}
